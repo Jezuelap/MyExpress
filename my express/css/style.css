@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "Exo2";
+  src: url("../fonts/Exo2-Italic.otf");
+}
+
+.fondo{
+	background: #37B7DE;
+}
+
+.Titulo{
+	background-color: #EB0043;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.Login{
+	background-color: #37B7DE;
+	display: flex;
+	justify-content: center;
+}
+
+.Login input{
+	width: 300px;
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+  	margin-right: auto;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	background-color: #37B7DE;
+	outline: none;
+	color:white;
+
+
+}
+
+.loguear{
+	color:#fff;
+	width: 300px;
+	line-height: 2.3rem;
+	font-size: 1.7rem;
+	background: #EB0043;
+	margin-top: 30px;
+	padding: 6px 22px;
+	border-radius: 0;
+}
+nav{
+	background-color: #EB0043;
+	height: 80px;
+}
+nav ul{	
+		padding-top: 1em;
+		background: #EB0043;
+		height: 80px;
+		list-style: none;
+
+}
+nav li{
+	margin-top: 1em;
+		float: left;
+}
+nav li a{
+		color: #fff;
+		display: block;
+		margin-right: 50px;
+		text-decoration: none;
+		font-family: "Exo2";
+}
+nav li a:hover{
+		color: #fff;
+		font-family: "Exo2";
+		text-decoration: none;
+}
+
+.menu{
+	padding-top: 1em;
+	margin-right: 30px;
+	margin-top: 1em;
+	width: 30%;
+	height: 85%;
+	display: block;
+	float: right;
+}
+.link{
+	padding-top: 1em;
+	margin-top: 1em;
+	width: 30%;
+	height: 85%;
+	display: inline-block;
+	text-decoration: none;
+	color:#fff;
+
+}
+.envio{
+	margin-top: 10px;
+}
+.envio select{
+	border-style: none;
+	border-radius: none;
+	color: white;
+	background: #EB0043;
+	height: 25px;
+	width: 200px;
+	font-size: 10pt;
+	font-family: "Exo2";
+
+
+}
+
+.envio select option{
+	color: white;
+	background: #EB0043;
+	font-size: 10pt;
+
+
+}
+.enviar{
+	text-align: -webkit-center;
+}
+.cmbiz{
+	padding-left: 35px;
+	float:left;
+	color: #fff;
+	font-family: "Exo2";
+}
+.cmbd{
+	padding-right: 35px;
+	float:right;
+	color: #fff;
+	font-family: "Exo2";
+
+}
+.inputs{
+	background: #EB0043;
+	height: 25px;
+	width: 200px;
+	font-size: 10pt;
+	text-align: center;
+	background-color: #37B7DE;
+	outline: none;
+	color:white;
+	font-family: "Exo2";
+	margin: 10px 0	;
+	border:1px solid #fff;
+}
+
+.empresas{
+	border: white 1px solid;
+}
+.pedido{
+	position: relative;
+	margin-top: -260px;
+	margin-right: 24px;
+	text-align: -webkit-center;
+	text-decoration: none;
+
+}
+.pedido a:hover{
+	color: white;
+	text-decoration: none;
+}
+.pedido input{
+	width: 100px;	 
+}
+.cuadro1{
+	margin:0 10px;
+	padding: 5px;
+	font-family: "Exo2";
+	color:white;
+	background: #231F20;
+}
+.cuadro2{
+	margin:0 10px;
+	padding: 5px;
+	font-family: "Exo2";
+	color:white;
+	background: #EB0043;
+}
+.block{
+	margin-top: 200px;
+}
+.empresas img{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.camion2{
+		display: block;
+		position: relative;
+	padding-top: 30px;
+	margin-right: 115px;
+	padding-bottom: 0;
+		width: 45%;
+	}
+p{
+	color: white;
+	font-family: "Exo2";
+	font-size: 12pt;
+}
+::-webkit-input-placeholder {
+   color: #fff;
+   font-family: "Exo2";
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+   font-family: "Exo2";
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+   font-family: "Exo2"; 
+}
+
+:-ms-input-placeholder {  
+   color: #fff;
+   font-family: "Exo2"; 
+}
+
+/* Extra small devices (phones, less than 768px) */
+.Titulo img{
+	width: 55%;
+}
+
+.camion{
+	display: none;
+}
+.hombre{
+	display: none;
+}
+
+.rota-horizontal{
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.Titulo img{
+		width: 30%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.Titulo img{
+		width: 15%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.Titulo img{
+		width: 15%;
+	}
+	.camion{
+		display: block;
+		position: relative;
+	padding-top: 30px;
+	margin-right: 115px;
+	padding-bottom: 0;
+		width: 35%;
+	}
+	.hombre{
+		display: block;
+		position: relative;
+		width: 9%;
+		margin-top: -190px;
+	margin-right: 180px;
+	}
+}
