@@ -50,17 +50,17 @@
 }
 nav{
 	background-color: #EB0043;
-	height: 80px;
+	height: 60px;
 }
 nav ul{	
-		padding-top: 1em;
 		background: #EB0043;
-		height: 80px;
 		list-style: none;
+		height: 60px;
+		line-height: 60px;
+		margin:0;
 
 }
 nav li{
-	margin-top: 1em;
 		float: left;
 }
 nav li a{
@@ -77,11 +77,9 @@ nav li a:hover{
 }
 
 .menu{
-	padding-top: 1em;
 	margin-right: 30px;
 	margin-top: 1em;
 	width: 30%;
-	height: 85%;
 	display: block;
 	float: right;
 }
@@ -199,11 +197,6 @@ nav li a:hover{
 	padding-bottom: 0;
 		width: 45%;
 	}
-p{
-	color: white;
-	font-family: "Exo2";
-	font-size: 12pt;
-}
 ::-webkit-input-placeholder {
    color: #fff;
    font-family: "Exo2";
@@ -279,4 +272,105 @@ p{
 		margin-top: -190px;
 	margin-right: 180px;
 	}
+}
+
+.opcion{
+	margin:5px;
+	border:1px solid #fff;
+	margin-bottom: 20px;
+}
+.opcion .logo{
+	vertical-align: middle;
+	line-height: 80px;
+}
+.opcion .contenido{
+	color:#fff;
+	font-style: italic;
+}
+.opcion .contenido div{
+
+}
+.opcion .contenido p{
+	font-size: 12px !important;
+	margin:0;
+	color: rgba(255,255,255,0.8);
+}
+.opcion .contenido h3{
+	margin:0;
+}
+.opcion .button{
+	background-color: #EB0043;
+	height: 90px;
+	display: block;
+}
+.opcion .button a{
+	display: block;
+	height: 90px;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 25px;
+	text-align: center;
+}
+.tiempo{
+	position: relative;
+	color: #fff;
+	font-style: italic;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	font-size: 24px;
+}
+.tiempo:before{
+	content: "";
+	position: absolute;
+	background: url(../imagenes/reloj.png);
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	left: -30px;
+}
+.llanta{
+	position: absolute;
+	margin: auto;
+}
+.llanta.uno{
+	left: 56.5%;
+	top: 68%;
+}
+.llanta.dos{
+	left: 27.5%;
+	top: 68%;
+}
+.llanta.tres{
+	left: 54%;
+	top: 83%;
+}
+.llanta.cuatro{
+	left: 32%;
+	top: 83%;
+}
+.llanta img{
+	-webkit-animation: myOrbit 4s linear infinite; /* Chrome, Safari 5 */
+       -moz-animation: myOrbit 4s linear infinite; /* Firefox 5-15 */
+         -o-animation: myOrbit 4s linear infinite; /* Opera 12+ */
+            animation: myOrbit 4s linear infinite;
+}
+
+@-webkit-keyframes myOrbit {
+	from { -webkit-transform: rotate(0deg) ;}
+	 to { -webkit-transform: rotate(-360deg); }
+}
+@-moz-keyframes myOrbit {
+	from { -webkit-transform: rotate(0deg);}
+	 to { -webkit-transform: rotate(-360deg); }
+	
+}
+@-o-keyframes myOrbit {
+	from { -webkit-transform: rotate(0deg);}
+	 to { -webkit-transform: rotate(-360deg); }
+
+}
+@keyframes myOrbit {
+	from { -webkit-transform: rotate(0deg);}
+	 to { -webkit-transform: rotate(-360deg); }
+
 }
